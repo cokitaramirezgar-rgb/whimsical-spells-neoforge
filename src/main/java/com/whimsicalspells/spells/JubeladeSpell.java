@@ -22,7 +22,6 @@ import net.minecraft.world.phys.Vec3;
 public class JubeladeSpell extends AbstractSpell {
     private final ResourceLocation spellId = WhimsicalSpells.id("jubelade");
 
-    private static final int CAST_TIME_TICKS = 20; // 1 s de conjuración
     private static final int MAX_LEVEL = 5;
     private static final double RANGE_BASE = 12.0;
     private static final double RANGE_PER_LEVEL = 3.0;
@@ -39,7 +38,7 @@ public class JubeladeSpell extends AbstractSpell {
         this.manaCostPerLevel = 5;
         this.baseSpellPower = 4;
         this.spellPowerPerLevel = 1;
-        this.castTime = CAST_TIME_TICKS;
+        this.castTime = 0;
     }
 
     @Override
@@ -49,7 +48,7 @@ public class JubeladeSpell extends AbstractSpell {
     public DefaultConfig getDefaultConfig() { return defaultConfig; }
 
     @Override
-    public CastType getCastType() { return CastType.LONG; }
+    public CastType getCastType() { return CastType.INSTANT; }
 
     @Override
     public void onCast(Level level, int spellLevel, LivingEntity entity, CastSource castSource, MagicData playerMagicData) {

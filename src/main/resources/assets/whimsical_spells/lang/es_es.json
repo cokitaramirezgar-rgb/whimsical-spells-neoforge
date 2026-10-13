@@ -12,7 +12,7 @@
   "spell.whimsical_spells.mana_suppression": "Supresión de maná",
   "spell.whimsical_spells.mana_suppression.guide": "Oculta tu presencia mágica: los mobs hostiles te detectan desde mucho menos distancia durante un rato. Más nivel, más duración y más sigilo.",
   "spell.whimsical_spells.reamstroha": "Reamstroha: Manipulación de agua",
-  "spell.whimsical_spells.reamstroha.guide": "Conjura agua temporal donde miras; con más nivel cubre más área y dura más. Si lanzas el hechizo agachado, retira el agua de la zona que miras. En el Nether el agua se evapora.",
+  "spell.whimsical_spells.reamstroha.guide": "Reúne el agua circundante en una enorme esfera sobre el objetivo y la deja caer en cascada, empapándolo: daño, lentitud y apaga el fuego. Es más potente si llueve o hay agua cerca. Si lanzas el hechizo agachado, la cascada cae sobre ti y tus aliados: apaga el fuego y da resistencia.",
   "spell.whimsical_spells.meehkeit": "Meehkeit: Detección de cofres trampa",
   "spell.whimsical_spells.meehkeit.guide": "Detecta los cofres trampa cercanos, aunque estén ocultos, y los marca con columnas de llamas azules durante unos segundos. Más nivel, más radio.",
   "effect.whimsical_spells.mana_suppression": "Supresión de maná",
@@ -24,14 +24,13 @@
   "ui.whimsical_spells.trace_none": "No sientes ningún rastro de poder mágico cerca",
   "ui.whimsical_spells.trace_here": "El poder mágico está justo aquí",
   "ui.whimsical_spells.suppression_on": "Tu presencia mágica se desvanece...",
-  "ui.whimsical_spells.reamstroha_no_target": "No hay nada al alcance",
-  "ui.whimsical_spells.reamstroha_evaporates": "El agua se evapora en este lugar",
-  "ui.whimsical_spells.reamstroha_no_space": "No hay espacio para el agua",
-  "ui.whimsical_spells.reamstroha_no_water": "No hay agua que retirar ahí",
   "ui.whimsical_spells.meehkeit_none": "No sientes ningún cofre trampa cerca",
   "ui.whimsical_spells.meehkeit_found": "Cofres trampa cerca: %s. El más próximo está a %s bloques al %s",
   "ui.whimsical_spells.dir_north": "norte",
   "ui.whimsical_spells.dir_south": "sur",
   "ui.whimsical_spells.dir_east": "este",
-  "ui.whimsical_spells.dir_west": "oeste"
+  "ui.whimsical_spells.dir_west": "oeste",
+  "ui.whimsical_spells.reamstroha_rain": "La lluvia refuerza el hechizo",
+  "spell.whimsical_spells.reelseiden": "Reelseiden: Tajo absoluto",
+  "spell.whimsical_spells.reelseiden.guide": "Un tajo en línea recta que corta casi cualquier cosa: abre una rendija en los bloques hasta la dureza de la piedra y mata de un golpe a cualquier mob o jugador que alcance. Se detiene ante bloques más duros, como la pizarra abisal, las menas o la obsidiana. Más nivel, más alcance."
 }

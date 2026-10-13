@@ -23,7 +23,6 @@ public class RepairItemSpell extends AbstractSpell {
     private final ResourceLocation spellId = WhimsicalSpells.id("repair_item");
 
     // --- Ajustes de equilibrio ---
-    private static final int CAST_TIME_TICKS = 60; // 3 s de conjuración (es muy útil)
     private static final int MAX_LEVEL = 5;
     private static final float HAND_MIN = 0.20f, HAND_MAX = 0.50f;
     private static final float ARMOR_MIN = 0.12f, ARMOR_MAX = 0.35f;
@@ -45,7 +44,7 @@ public class RepairItemSpell extends AbstractSpell {
         this.manaCostPerLevel = 0;
         this.baseSpellPower = 1;
         this.spellPowerPerLevel = 0;
-        this.castTime = CAST_TIME_TICKS;
+        this.castTime = 0;
         this.baseManaCost = 100;
     }
 
@@ -56,7 +55,7 @@ public class RepairItemSpell extends AbstractSpell {
     public DefaultConfig getDefaultConfig() { return defaultConfig; }
 
     @Override
-    public CastType getCastType() { return CastType.LONG; }
+    public CastType getCastType() { return CastType.INSTANT; }
 
     private static float lerpLevel(float min, float max, int level) {
         int l = Math.max(1, Math.min(level, MAX_LEVEL));

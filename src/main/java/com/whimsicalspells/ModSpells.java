@@ -34,5 +34,8 @@ public class ModSpells {
     public static final DeferredHolder<AbstractSpell, AbstractSpell> MEEHKEIT =
             SPELLS.register("meehkeit", MeehkeitSpell::new);
 
+    public static final DeferredHolder<AbstractSpell, AbstractSpell> REELSEIDEN =
+            SPELLS.register("reelseiden", ReelseidenSpell::new);
+
     // Pendiente: WARD_BARRIER
 }

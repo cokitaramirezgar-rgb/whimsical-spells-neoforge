@@ -30,7 +30,6 @@ import java.util.List;
 public class MagicTraceSpell extends AbstractSpell {
     private final ResourceLocation spellId = WhimsicalSpells.id("magic_trace");
 
-    private static final int CAST_TIME_TICKS = 40; // 2 s de conjuración
     private static final int MAX_LEVEL = 3;
     private static final int[] RADIUS_CHUNKS = {40, 80, 120};
 
@@ -55,7 +54,7 @@ public class MagicTraceSpell extends AbstractSpell {
         this.manaCostPerLevel = 10;
         this.baseSpellPower = 1;
         this.spellPowerPerLevel = 0;
-        this.castTime = CAST_TIME_TICKS;
+        this.castTime = 0;
     }
 
     @Override
@@ -65,7 +64,7 @@ public class MagicTraceSpell extends AbstractSpell {
     public DefaultConfig getDefaultConfig() { return defaultConfig; }
 
     @Override
-    public CastType getCastType() { return CastType.LONG; }
+    public CastType getCastType() { return CastType.INSTANT; }
 
     @Override
     public void onCast(Level level, int spellLevel, LivingEntity entity, CastSource castSource, MagicData playerMagicData) {
