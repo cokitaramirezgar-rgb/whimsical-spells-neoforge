@@ -1,0 +1,884 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:scroll",
+          "weight": 60,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "irons_spellbooks:spell_container": {
+                  "data": [
+                    {
+                      "id": "whimsical_spells:flower_field",
+                      "level": 1,
+                      "index": 0,
+                      "locked": true
+                    }
+                  ],
+                  "maxSpells": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:scroll",
+          "weight": 30,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "irons_spellbooks:spell_container": {
+                  "data": [
+                    {
+                      "id": "whimsical_spells:flower_field",
+                      "level": 2,
+                      "index": 0,
+                      "locked": true
+                    }
+                  ],
+                  "maxSpells": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:scroll",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "irons_spellbooks:spell_container": {
+                  "data": [
+                    {
+                      "id": "whimsical_spells:flower_field",
+                      "level": 3,
+                      "index": 0,
+                      "locked": true
+                    }
+                  ],
+                  "maxSpells": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:scroll",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "irons_spellbooks:spell_container": {
+                  "data": [
+                    {
+                      "id": "whimsical_spells:flower_field",
+                      "level": 4,
+                      "index": 0,
+                      "locked": true
+                    }
+                  ],
+                  "maxSpells": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:scroll",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "irons_spellbooks:spell_container": {
+                  "data": [
+                    {
+                      "id": "whimsical_spells:flower_field",
+                      "level": 5,
+                      "index": 0,
+                      "locked": true
+                    }
+                  ],
+                  "maxSpells": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:scroll",
+          "weight": 60,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "irons_spellbooks:spell_container": {
+                  "data": [
+                    {
+                      "id": "whimsical_spells:magic_trace",
+                      "level": 1,
+                      "index": 0,
+                      "locked": true
+                    }
+                  ],
+                  "maxSpells": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:scroll",
+          "weight": 30,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "irons_spellbooks:spell_container": {
+                  "data": [
+                    {
+                      "id": "whimsical_spells:magic_trace",
+                      "level": 2,
+                      "index": 0,
+                      "locked": true
+                    }
+                  ],
+                  "maxSpells": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:scroll",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "irons_spellbooks:spell_container": {
+                  "data": [
+                    {
+                      "id": "whimsical_spells:magic_trace",
+                      "level": 3,
+                      "index": 0,
+                      "locked": true
+                    }
+                  ],
+                  "maxSpells": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:scroll",
+          "weight": 60,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "irons_spellbooks:spell_container": {
+                  "data": [
+                    {
+                      "id": "whimsical_spells:meehkeit",
+                      "level": 1,
+                      "index": 0,
+                      "locked": true
+                    }
+                  ],
+                  "maxSpells": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:scroll",
+          "weight": 30,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "irons_spellbooks:spell_container": {
+                  "data": [
+                    {
+                      "id": "whimsical_spells:meehkeit",
+                      "level": 2,
+                      "index": 0,
+                      "locked": true
+                    }
+                  ],
+                  "maxSpells": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:scroll",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "irons_spellbooks:spell_container": {
+                  "data": [
+                    {
+                      "id": "whimsical_spells:meehkeit",
+                      "level": 3,
+                      "index": 0,
+                      "locked": true
+                    }
+                  ],
+                  "maxSpells": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:scroll",
+          "weight": 48,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "irons_spellbooks:spell_container": {
+                  "data": [
+                    {
+                      "id": "whimsical_spells:jubelade",
+                      "level": 1,
+                      "index": 0,
+                      "locked": true
+                    }
+                  ],
+                  "maxSpells": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:scroll",
+          "weight": 24,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "irons_spellbooks:spell_container": {
+                  "data": [
+                    {
+                      "id": "whimsical_spells:jubelade",
+                      "level": 2,
+                      "index": 0,
+                      "locked": true
+                    }
+                  ],
+                  "maxSpells": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:scroll",
+          "weight": 16,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "irons_spellbooks:spell_container": {
+                  "data": [
+                    {
+                      "id": "whimsical_spells:jubelade",
+                      "level": 3,
+                      "index": 0,
+                      "locked": true
+                    }
+                  ],
+                  "maxSpells": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:scroll",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "irons_spellbooks:spell_container": {
+                  "data": [
+                    {
+                      "id": "whimsical_spells:jubelade",
+                      "level": 4,
+                      "index": 0,
+                      "locked": true
+                    }
+                  ],
+                  "maxSpells": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:scroll",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "irons_spellbooks:spell_container": {
+                  "data": [
+                    {
+                      "id": "whimsical_spells:jubelade",
+                      "level": 5,
+                      "index": 0,
+                      "locked": true
+                    }
+                  ],
+                  "maxSpells": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:scroll",
+          "weight": 48,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "irons_spellbooks:spell_container": {
+                  "data": [
+                    {
+                      "id": "whimsical_spells:medrozobalt",
+                      "level": 1,
+                      "index": 0,
+                      "locked": true
+                    }
+                  ],
+                  "maxSpells": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:scroll",
+          "weight": 24,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "irons_spellbooks:spell_container": {
+                  "data": [
+                    {
+                      "id": "whimsical_spells:medrozobalt",
+                      "level": 2,
+                      "index": 0,
+                      "locked": true
+                    }
+                  ],
+                  "maxSpells": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:scroll",
+          "weight": 16,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "irons_spellbooks:spell_container": {
+                  "data": [
+                    {
+                      "id": "whimsical_spells:medrozobalt",
+                      "level": 3,
+                      "index": 0,
+                      "locked": true
+                    }
+                  ],
+                  "maxSpells": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:scroll",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "irons_spellbooks:spell_container": {
+                  "data": [
+                    {
+                      "id": "whimsical_spells:medrozobalt",
+                      "level": 4,
+                      "index": 0,
+                      "locked": true
+                    }
+                  ],
+                  "maxSpells": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:scroll",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "irons_spellbooks:spell_container": {
+                  "data": [
+                    {
+                      "id": "whimsical_spells:medrozobalt",
+                      "level": 5,
+                      "index": 0,
+                      "locked": true
+                    }
+                  ],
+                  "maxSpells": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:scroll",
+          "weight": 48,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "irons_spellbooks:spell_container": {
+                  "data": [
+                    {
+                      "id": "whimsical_spells:mana_suppression",
+                      "level": 1,
+                      "index": 0,
+                      "locked": true
+                    }
+                  ],
+                  "maxSpells": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:scroll",
+          "weight": 24,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "irons_spellbooks:spell_container": {
+                  "data": [
+                    {
+                      "id": "whimsical_spells:mana_suppression",
+                      "level": 2,
+                      "index": 0,
+                      "locked": true
+                    }
+                  ],
+                  "maxSpells": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:scroll",
+          "weight": 16,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "irons_spellbooks:spell_container": {
+                  "data": [
+                    {
+                      "id": "whimsical_spells:mana_suppression",
+                      "level": 3,
+                      "index": 0,
+                      "locked": true
+                    }
+                  ],
+                  "maxSpells": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:scroll",
+          "weight": 48,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "irons_spellbooks:spell_container": {
+                  "data": [
+                    {
+                      "id": "whimsical_spells:reamstroha",
+                      "level": 1,
+                      "index": 0,
+                      "locked": true
+                    }
+                  ],
+                  "maxSpells": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:scroll",
+          "weight": 24,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "irons_spellbooks:spell_container": {
+                  "data": [
+                    {
+                      "id": "whimsical_spells:reamstroha",
+                      "level": 2,
+                      "index": 0,
+                      "locked": true
+                    }
+                  ],
+                  "maxSpells": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:scroll",
+          "weight": 16,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "irons_spellbooks:spell_container": {
+                  "data": [
+                    {
+                      "id": "whimsical_spells:reamstroha",
+                      "level": 3,
+                      "index": 0,
+                      "locked": true
+                    }
+                  ],
+                  "maxSpells": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:scroll",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "irons_spellbooks:spell_container": {
+                  "data": [
+                    {
+                      "id": "whimsical_spells:reamstroha",
+                      "level": 4,
+                      "index": 0,
+                      "locked": true
+                    }
+                  ],
+                  "maxSpells": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:scroll",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "irons_spellbooks:spell_container": {
+                  "data": [
+                    {
+                      "id": "whimsical_spells:reamstroha",
+                      "level": 5,
+                      "index": 0,
+                      "locked": true
+                    }
+                  ],
+                  "maxSpells": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:scroll",
+          "weight": 36,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "irons_spellbooks:spell_container": {
+                  "data": [
+                    {
+                      "id": "whimsical_spells:repair_item",
+                      "level": 1,
+                      "index": 0,
+                      "locked": true
+                    }
+                  ],
+                  "maxSpells": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:scroll",
+          "weight": 18,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "irons_spellbooks:spell_container": {
+                  "data": [
+                    {
+                      "id": "whimsical_spells:repair_item",
+                      "level": 2,
+                      "index": 0,
+                      "locked": true
+                    }
+                  ],
+                  "maxSpells": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:scroll",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "irons_spellbooks:spell_container": {
+                  "data": [
+                    {
+                      "id": "whimsical_spells:repair_item",
+                      "level": 3,
+                      "index": 0,
+                      "locked": true
+                    }
+                  ],
+                  "maxSpells": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:scroll",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "irons_spellbooks:spell_container": {
+                  "data": [
+                    {
+                      "id": "whimsical_spells:repair_item",
+                      "level": 4,
+                      "index": 0,
+                      "locked": true
+                    }
+                  ],
+                  "maxSpells": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:scroll",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "irons_spellbooks:spell_container": {
+                  "data": [
+                    {
+                      "id": "whimsical_spells:repair_item",
+                      "level": 5,
+                      "index": 0,
+                      "locked": true
+                    }
+                  ],
+                  "maxSpells": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:scroll",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "irons_spellbooks:spell_container": {
+                  "data": [
+                    {
+                      "id": "whimsical_spells:reelseiden",
+                      "level": 1,
+                      "index": 0,
+                      "locked": true
+                    }
+                  ],
+                  "maxSpells": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:scroll",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "irons_spellbooks:spell_container": {
+                  "data": [
+                    {
+                      "id": "whimsical_spells:reelseiden",
+                      "level": 2,
+                      "index": 0,
+                      "locked": true
+                    }
+                  ],
+                  "maxSpells": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:scroll",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "irons_spellbooks:spell_container": {
+                  "data": [
+                    {
+                      "id": "whimsical_spells:reelseiden",
+                      "level": 3,
+                      "index": 0,
+                      "locked": true
+                    }
+                  ],
+                  "maxSpells": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 9844
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "whimsical_spells:ability_scroll_flight",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "whimsical_spells:ability_scroll_meditation",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 95
+        }
+      ]
+    }
+  ]
+}
