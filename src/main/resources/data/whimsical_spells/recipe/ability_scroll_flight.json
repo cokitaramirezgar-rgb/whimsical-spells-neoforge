@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "minecraft:paper" },
+    { "item": "minecraft:phantom_membrane" },
+    { "item": "minecraft:phantom_membrane" },
+    { "item": "minecraft:feather" },
+    { "item": "minecraft:feather" },
+    { "item": "minecraft:amethyst_shard" }
+  ],
+  "result": { "id": "whimsical_spells:ability_scroll_flight", "count": 1 }
+}

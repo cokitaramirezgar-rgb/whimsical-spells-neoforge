@@ -11,6 +11,9 @@ public class WhimsicalSpells {
     public WhimsicalSpells(IEventBus modBus) {
         ModSpells.SPELLS.register(modBus);
         ModEffects.EFFECTS.register(modBus);
+        ModItems.ITEMS.register(modBus);
+        ModAttachments.ATTACHMENTS.register(modBus);
+        modBus.addListener(ModItems::addToCreativeTab);
     }
 
     public static ResourceLocation id(String path) {

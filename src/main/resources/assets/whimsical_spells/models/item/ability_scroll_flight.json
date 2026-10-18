@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "whimsical_spells:item/ability_scroll_flight"
+  }
+}

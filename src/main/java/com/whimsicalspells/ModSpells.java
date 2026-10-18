@@ -37,5 +37,20 @@ public class ModSpells {
     public static final DeferredHolder<AbstractSpell, AbstractSpell> REELSEIDEN =
             SPELLS.register("reelseiden", ReelseidenSpell::new);
 
+    public static final DeferredHolder<AbstractSpell, AbstractSpell> SMOKE_BLINDFOLD =
+            SPELLS.register("smoke_blindfold", SmokeBlindfoldSpell::new);
+
+    public static final DeferredHolder<AbstractSpell, AbstractSpell> REDIRECT_ENEMIES =
+            SPELLS.register("redirect_enemies", RedirectEnemiesSpell::new);
+
+    public static final DeferredHolder<AbstractSpell, AbstractSpell> CONJURED_VINES =
+            SPELLS.register("conjured_vines", ConjuredVinesSpell::new);
+
+    public static final DeferredHolder<AbstractSpell, AbstractSpell> GIB_ECNARTNE =
+            SPELLS.register("gib_ecnartne", GibEcnartneSpell::new);
+
+    public static final DeferredHolder<AbstractSpell, AbstractSpell> FORCE_BUBBLE =
+            SPELLS.register("force_bubble", ForceBubbleSpell::new);
+
     // Pendiente: WARD_BARRIER
 }
