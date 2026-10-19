@@ -37,5 +37,50 @@ public class ModSpells {
     public static final DeferredHolder<AbstractSpell, AbstractSpell> REELSEIDEN =
             SPELLS.register("reelseiden", ReelseidenSpell::new);
 
+    public static final DeferredHolder<AbstractSpell, AbstractSpell> DRAGON_SLAVE =
+            SPELLS.register("dragon_slave", DragonSlaveSpell::new);
+
+    public static final DeferredHolder<AbstractSpell, AbstractSpell> RA_TILT =
+            SPELLS.register("ra_tilt", RaTiltSpell::new);
+
+    public static final DeferredHolder<AbstractSpell, AbstractSpell> SHADOW_SNAP =
+            SPELLS.register("shadow_snap", ShadowSnapSpell::new);
+
+    public static final DeferredHolder<AbstractSpell, AbstractSpell> SLEEPING =
+            SPELLS.register("sleeping", SleepingSpell::new);
+
+    public static final DeferredHolder<AbstractSpell, AbstractSpell> AQUA_CREATE =
+            SPELLS.register("aqua_create", AquaCreateSpell::new);
+
+    public static final DeferredHolder<AbstractSpell, AbstractSpell> AQUA_BREATHE =
+            SPELLS.register("aqua_breathe", AquaBreatheSpell::new);
+
+    public static final DeferredHolder<AbstractSpell, AbstractSpell> LEVITATION =
+            SPELLS.register("levitation", LevitationSpell::new);
+
+    public static final DeferredHolder<AbstractSpell, AbstractSpell> LIGHTING =
+            SPELLS.register("lighting", LightingSpell::new);
+
+    public static final DeferredHolder<AbstractSpell, AbstractSpell> FIREPROOF_TECHNIQUE =
+            SPELLS.register("fireproof_technique", FireproofTechniqueSpell::new);
+
+    public static final DeferredHolder<AbstractSpell, AbstractSpell> WARMTH_SPELL =
+            SPELLS.register("warmth_spell", WarmthSpell::new);
+
+    public static final DeferredHolder<AbstractSpell, AbstractSpell> COLD_SPELL =
+            SPELLS.register("cold_spell", ColdSpell::new);
+
+    public static final DeferredHolder<AbstractSpell, AbstractSpell> DISENCHANTING_WORDS =
+            SPELLS.register("disenchanting_words", DisenchantingWordsSpell::new);
+
+    public static final DeferredHolder<AbstractSpell, AbstractSpell> BREAKING_A_SPELL =
+            SPELLS.register("breaking_a_spell", BreakingASpellSpell::new);
+
+    public static final DeferredHolder<AbstractSpell, AbstractSpell> BOOST =
+            SPELLS.register("boost", BoostSpell::new);
+
+    public static final DeferredHolder<AbstractSpell, AbstractSpell> STRENGTHENING =
+            SPELLS.register("strengthening", StrengtheningSpell::new);
+
     // Pendiente: WARD_BARRIER
 }
